@@ -1,2 +1,2 @@
 FROM httpd:latest
-COPY 
+COPY ./composetest /usr/local/apache2/htdocs
